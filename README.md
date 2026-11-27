@@ -1,19 +1,17 @@
 # Pitcrew
 
-Pitcrew is an F1-inspired orchestration starter for any project. A Gemini 4
-Neon Lead coordinates the work and stays available for feedback. Parallel
-GPT-6.2 Sol specialists implement and verify changes in exclusively owned
-paths. A 15-minute T3 Code watchdog catches stalled work and keeps the Lead
-available between check-ins.
+**Keep your main chat free while the work gets done.** Pitcrew keeps your Lead available for feedback and new direction, even during long edits, builds, and test runs.
 
-## Start in 30 seconds
+## Delegate in waves
 
-1. Copy `AGENTS.md`, `GEMINI.md`, `PLAN.template.md`, and `PLAYBOOK.md` into the
-   project root. Keep the two rule files identical when you customize them.
-2. Open a new T3 Code thread in that project and select Gemini 4 Neon.
-3. Paste [KICKOFF.md](KICKOFF.md), fill in its placeholders, and send it.
-   The Lead turns your brief into a wave plan and delegates the first work.
+The Lead delegates all implementation, builds, and tests to subagents. It turns your brief into assignments with clear ownership and acceptance criteria, then dispatches or schedules the next wave as workers finish and dependencies clear. You can steer the work at any point from the same chat.
 
-The project defines its own tools, paths, checks, and package format. Use
-[PLAN.template.md](PLAN.template.md) to record them and
-[PLAYBOOK.md](PLAYBOOK.md) to run the waves.
+## Get better work for less
+
+A frontier model leads. Lower-cost models do the implementation. The Lead gives each worker a more precise and detailed brief than you’d typically write by hand, including the context, constraints, and checks it needs. Workers spend the bulk of the tokens at lower rates, and sharper briefs help them deliver better work with less rework.
+
+## Get started
+
+1. Drop the Pitcrew starter into your project root.
+2. Open a T3 Code thread with a frontier model as your Lead.
+3. Send your brief with the outcome, constraints, and success criteria. Steer from the main chat as subagents deliver.
