@@ -17,3 +17,7 @@ A frontier model leads. Lower-cost models do the implementation. The Lead gives 
 1. Drop the Pitcrew starter into your project root.
 2. Open a T3 Code thread with a frontier model as your Lead.
 3. Send your brief with the outcome, constraints, and success criteria. Steer from the main chat as subagents deliver.
+
+## Framework agnostic starter
+
+This is simply only the default rule files meant to be a starter for actual starters. There is no framework specific rules in here, just the working mechanism for agents and subagents.
